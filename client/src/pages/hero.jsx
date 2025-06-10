@@ -20,9 +20,9 @@ const Hero = () => {
 
         <div className='flex gap-x-5 mt-3'>
 
-          <Link to='/login' className='p-3 bg-gradient-to-r from-blue-500 to-blue-900 text-white rounded-md w-[90px] text-center'>Sign in</Link>
+          <Link to='/signin' className='p-3 bg-gradient-to-r from-blue-500 to-blue-900 text-white rounded-md w-[90px] text-center'>Sign in</Link>
 
-          <a href="" className='p-3 bg-gradient-to-r from-blue-900 to-blue-500 text-white rounded-md w-[90px] text-center'>Visitors</a>
+          <a href="/visitors" className='p-3 bg-gradient-to-r from-blue-900 to-blue-500 text-white rounded-md w-[90px] text-center'>Visitors</a>
 
         </div>
 
